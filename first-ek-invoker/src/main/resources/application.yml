@@ -1,0 +1,16 @@
+server:
+  port: 9000
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: first-ek-invoker
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+eureka:
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: first-ek-provider
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+server:
+  tomcat:
+    uri-encoding: UTF-8
