@@ -14,3 +14,9 @@ eureka:
   client:
     service-url:
       defalutZone: http://localhost:8761/eureka/
+#同样可以通过配置来定义各个属性
+#cloud-provier:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.tzl.cloud.MyRule
+#    NFLoadBalancerPingClassName: com.tzl.cloud.MyPing
+#    listOfServers: http://localhost:8080,http://localhost:8081
